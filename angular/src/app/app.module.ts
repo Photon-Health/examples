@@ -15,9 +15,9 @@ import { UserProfileComponent } from './user.component';
 
     // Import the module into the application, with configuration
     AuthModule.forRoot({
-      domain: 'neutrons.us.auth0.com', // Sandbox
+      domain: 'auth.neutron.health', // Sandbox
       clientId: 'EY6fay2mZV0VgYA0dTqgmSjEGzmBSblL', // Localhost Client ID
-      // organization: 'YOUR_ORG_ID'
+      // organization: '' // TODO: Set org_id
     }),
   ],
 
